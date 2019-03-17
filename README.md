@@ -4,10 +4,13 @@ exception of removing some kotlin co-routines stuff - kotlin 1.3 has coroutines 
 coroutines are playing in this example.
 
 This game is different from the one with the fishies in that it's using the 'io.github.libktx' and the latest version at that - which makes 
-this the most complete and up to date example from the creators there is! Here you can find examples of the 
-[asset manager](https://github.com/libktx/ktx/tree/master/assets), [scene2d builder](https://github.com/libktx/ktx/tree/master/scene2d) and 
-[dependency injection](https://github.com/libktx/ktx/tree/master/inject) in use! It also uses a entity component system as well as lighting 
-and particle effects - great stuff to incorporate into your own project!
+this the most complete and up to date example from the creators there is! Here you can find examples of the following
+
+- [asset manager](https://github.com/libktx/ktx/tree/master/assets): see SoundManager.kt
+- [dependency injection](https://github.com/libktx/ktx/tree/master/inject): see App.kt 
+- [skin builder](https://github.com/libktx/ktx/tree/master/style): see App.kt
+- [scene2d builders](https://github.com/libktx/ktx/tree/master/scene2d): see Menu.kt
+- [box2d lights](https://github.com/libgdx/box2dlights): see GameManager.kt
 
 For me though, the gameplay is too hard - the theme of thee gamejam was '10 seconds' and only if I just run away from the monsters can I 
 survive longer than that! 
