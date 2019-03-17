@@ -6,10 +6,11 @@ coroutines are playing in this example.
 This game is different from the one with the fishies in that it's using the 'io.github.libktx' and the latest version at that - which makes 
 this the most complete and up to date example from the creators there is! Here you can find examples of the 
 [asset manager](https://github.com/libktx/ktx/tree/master/assets), [scene2d builder](https://github.com/libktx/ktx/tree/master/scene2d) and 
-[dependency injection](https://github.com/libktx/ktx/tree/master/inject) in use! It also uses a entity component system.
+[dependency injection](https://github.com/libktx/ktx/tree/master/inject) in use! It also uses a entity component system as well as lighting 
+and particle effects - great stuff to incorporate into your own project!
 
 For me though, the gameplay is too hard - the theme of thee gamejam was '10 seconds' and only if I just run away from the monsters can I 
-survive longer than that! You might miss the lighting and particle effects.
+survive longer than that! 
 
 I also reformatted all of the code (ctrl+alt+i in intellij). Hopefully this updated project helps others read the code and build it - removing 
 everything from this and starting with only the menu screen was my first attempt to play with this cool library!
