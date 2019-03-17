@@ -1,3 +1,21 @@
+I updated the build.gradle files in this project and built it with all new dependencies (latest versions of gdx and libktx). I used gradle 
+5.1 - just like with [the fish game](https://github.com/jojomickymack/egu2016), I pretty much left the original source alone with the 
+exception of removing some kotlin co-routines stuff - kotlin 1.3 has coroutines enabled by default and I don't quite understand what role the 
+coroutines are playing in this example.
+
+This game is different from the one with the fishies in that it's using the 'io.github.libktx' and the latest version at that - which makes 
+this the most complete and up to date example from the creators there is! Here you can find examples of the 
+[asset manager](https://github.com/libktx/ktx/tree/master/assets), [scene2d builder](https://github.com/libktx/ktx/tree/master/scene2d) and 
+[dependency injection](https://github.com/libktx/ktx/tree/master/inject) in use! It also uses a entity component system.
+
+For me though, the gameplay is too hard - the theme of thee gamejam was '10 seconds' and only if I just run away from the monsters can I 
+survive longer than that! You might miss the lighting and particle effects.
+
+I also reformatted all of the code (ctrl+alt+i in intellij). Hopefully this updated project helps others read the code and build it - removing 
+everything from this and starting with only the menu screen was my first attempt to play with this cool library!
+
+below is the readme from the original project.
+
 # BialJam'17
 
 **Outlive the horde!**
