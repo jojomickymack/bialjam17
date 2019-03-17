@@ -7,8 +7,8 @@ This game is different from the one with the fishies in that it's using the 'io.
 this the most complete and up to date example from the creators there is! Here you can find examples of the following
 
 - [asset manager](https://github.com/libktx/ktx/tree/master/assets): see SoundManager.kt
-- [dependency injection](https://github.com/libktx/ktx/tree/master/inject): see App.kt 
-- [skin builder](https://github.com/libktx/ktx/tree/master/style): see App.kt
+- [dependency injection](https://github.com/libktx/ktx/tree/master/inject): see [App.kt](core/src/com/ownedoutcomes/App.kt)
+- [skin builder](https://github.com/libktx/ktx/tree/master/style): see [App.kt](core/src/com/ownedoutcomes/App.kt)
 - [scene2d builders](https://github.com/libktx/ktx/tree/master/scene2d): see Menu.kt
 - [box2d lights](https://github.com/libgdx/box2dlights): see GameManager.kt
 
